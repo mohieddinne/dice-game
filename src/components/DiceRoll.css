@@ -1,0 +1,66 @@
+.DiceRoll {
+    text-align: center;
+}
+
+.user {
+    margin: 20px;
+}
+
+
+.btnGame {
+    color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    border: none;
+    margin: 20px;
+    background-color: black;
+}
+.disabled{
+  color: white;
+  width: 200px;
+  height: 60px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  border: none;
+  margin: 20px;
+  background-color: rgba(234, 230, 230, 0.733);
+}
+
+.btnGame:hover {
+    background-color: darkslateblue;
+    cursor: pointer;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  /* Style the label */
+  label {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  /* Style the input */
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Add some spacing between the input and the paragraph */
+  p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
