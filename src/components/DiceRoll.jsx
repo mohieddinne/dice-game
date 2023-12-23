@@ -78,7 +78,7 @@ const DiceRoll = ({ selectedLimit }) => {
       return () => clearTimeout(timerId);
     }
     checkWinner();
-  }, [isRolling, scores]);
+  }, [isRolling, scores, checkWinner, updateScoresAndSwitchPlayer]);
   /**
     * Détermine si un joueur a déjà joué.
     * @type {boolean}
